@@ -1,0 +1,119 @@
+
+/*
+| 1px           | 0.0625rem |
+| 2px           | 0.125rem  |
+| 4px           | 0.25rem   |
+| 8px           | 0.5rem    |
+| 16px          | 1rem      |
+| 32px          | 2rem      |
+| 48px          | 3rem      |
+| 64px          | 4rem      |
+*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+html{
+    background-color: #e3d1ec; /*To give color to margin*/
+}
+body{
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 3rem;
+  letter-spacing: 0.125rem;
+  background-color: #fbf4ff;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(224, 192, 255, 0.681);
+  width: 60rem;
+  margin: 5rem auto;
+
+}
+img{
+    width: 11rem;         /* You can adjust size */
+    height: 11rem;
+    object-fit: cover;    /* Keeps the image from stretching */
+    border-radius: 50%;   /* Makes it a circle */
+    border: 0.2rem solid #e7baff;
+    box-shadow: 0 0.25rem 1rem rgba(252, 246, 255, 0.6);
+    
+}
+li{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    background-color: #ffc0b0;;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.6rem;
+    color: black;
+}
+div{
+    text-align: left;
+}
+#about p{
+    text-align: left;
+}
+#about, #projects, #skills, #contact{
+    border: 0.125rem dashed #d8cce3;
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+    border-radius: 0.6rem;
+    margin: 3rem;
+    padding: 3rem;
+}
+#contact a{
+    background-color:#fff ;
+}
+header a{
+    background-color: #fbf4ff;
+}
+
+#about{
+    border: 0.125rem dashed #d8cce3;
+    background-color: #fff;
+    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+}
+#about:hover{
+    background-color: #fffce8;
+    font-size:large;
+}
+#projects:hover{
+    background-color: #e9ffe8;
+    font-size:large;
+}
+#skills:hover{
+    background-color: #e8f8ff;
+    font-size:large;
+}
+li:hover{
+    color: #034e37;
+}
+#contact:hover{
+    background-color: #e8fffa;
+    font-size:large;
+}
+#contact:hover a{
+    background-color: #e8fffa;
+}
+header:hover{
+    font-size: large;
+}
+.form, .website, .story{
+    border: 0.125rem solid pink;
+    background-color: rgb(252, 245, 246);
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+    margin: 1.25rem; 
+}
+div.form:hover{
+    font-size: larger;
+}
+div.website:hover{
+    font-size: larger;
+}
+div.story:hover{
+    font-size: larger;
+}
+img:hover{
+    transform: scale(1.1);   /* transform visually changes an element’s size, position, or rotation without affecting layout */
+
+}
